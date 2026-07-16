@@ -4,6 +4,7 @@ adr new First Record
 architecture-log/0002-first-record.md
 mkdir subdir
 cd subdir
+/tmp/adr-tools-build/tests/search-for-custom-adr-dir/subdir
 adr new Second Record
 ../architecture-log/0003-second-record.md
 adr list

@@ -48,7 +48,7 @@ cat <<EOF
 
 EOF
 
-if [ ! -z $intro ]
+if [ ! -z "$intro" ]
 then
     cat "$intro"
     echo
@@ -62,7 +62,7 @@ do
     echo "* [$title]($link)"
 done
 
-if [ ! -z $outro ]
+if [ ! -z "$outro" ]
 then
     echo
     cat "$outro"

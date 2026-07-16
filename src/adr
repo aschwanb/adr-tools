@@ -4,7 +4,7 @@ eval "$($(dirname $0)/adr-config)"
 
 cmd=$adr_bin_dir/adr-$1
 
-if [ -x $cmd ]
+if [ -x "$cmd" ]
 then
     $cmd "${@:2}"
 else
